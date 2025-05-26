@@ -1,0 +1,25 @@
+{
+  "name": "moiseev",
+  "displayName": "DBDENI",
+  "description": "VS Code snippets for Flask, MySQL, and Logistics application development.",
+  "version": "0.0.1",
+  "publisher": "dbdeni",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/druganchik/flask-snippets-extension.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
